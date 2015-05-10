@@ -1,12 +1,16 @@
 package com.matasablo.mySite.leaflet;
 
 import javax.swing.text.DateFormatter;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.core.Response;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
  * Created by Erika on 04/05/2015.
  */
+@Path("map")
 public class MapTileLocator {
 
     public static String METOFFICE = "http://www.metoffice.gov.uk";
@@ -41,4 +45,12 @@ public class MapTileLocator {
 
         return  URL;
     };
+
+    @GET
+    @Path("/uk")
+    public Response testREST(){
+        return Response.status(200).entity("success!!").build();
+    }
+
+
 }

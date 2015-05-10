@@ -16,7 +16,7 @@ public class WeatherDTO {
     @JsonProperty("dateFrom")
     private String dateFrom;
 
-    @JsonProperty("dateTo")
+    @JsonProperty("dWateTo")
     private String dateTo;
 
 

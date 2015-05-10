@@ -1,2 +1,5 @@
 /target
 .idea
+.iml
+src/main/webapp/js/jquery
+src/main/webapp/js/leaflet-0.7.3

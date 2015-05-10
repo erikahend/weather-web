@@ -1,9 +1,9 @@
 package com.matasablo.mySite;
 
 import com.matasablo.mySite.dto.WeatherDTO;
-import com.sun.tools.internal.ws.processor.model.Response;
 
 import javax.ws.rs.POST;
+import javax.ws.rs.core.Response;
 
 
 /**
